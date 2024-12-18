@@ -24,6 +24,7 @@ public class AlunoBean implements Serializable {
     public String salvar() {
         daoGeneric.merge(aluno);
         carregarAlunos();
+        // teste
         return "";
     }
 
